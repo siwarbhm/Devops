@@ -47,6 +47,11 @@ public class EmployeeTest {
 	int depId;
 	int idC;
 	String lastName;
+	
+	
+	
+	
+	
 	@Before public void initialisation()
 	{
 		depId=departementRepository.save(new Departement("esprit")).getId();
